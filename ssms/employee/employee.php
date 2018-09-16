@@ -1,13 +1,14 @@
 ﻿<?php include_once ("head.php")?>
+<?php include_once ("slider.php")?>
 <body>
    
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper" >
-            <div class="row">
-                <div class="col-md-3">
-
-<!--                    side bar-->
-                </div>
+            <div class="row" >
+<!--                <div class="col-md-2" bgcolor="red">-->
+<!---->
+<!--<!--                    side bar-->
+<!--                </div>-->
                 <div class="col-md-6">
 
                     <!--                personal details-->
@@ -55,6 +56,9 @@
 
                     </div>
 
+
+                </div>
+                <div class="col-md-6" >
                     <!--                salary details-->
                     <div >
                         <div id="page-inner" class="col-md-6">
@@ -74,14 +78,11 @@
                             </div>
                             <div class="form-group">
                                 <label>Ratings:</label>
-                                <input class="form-control" name="employee_email" placeholder="Enter ">
+                                <input class="form-control" name="employee_email" placeholder="Enter rating number">
                             </div>
                         </div>
 
                     </div>
-                </div>
-                <div class="col-md-3">
-
                     <!--                    calender-->
                 </div>
 
@@ -93,14 +94,14 @@
      <!-- /. WRAPPER  -->
     <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
     <!-- JQUERY SCRIPTS -->
-    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="../assets/js/jquery-1.10.2.js"></script>
       <!-- BOOTSTRAP SCRIPTS -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
     <!-- METISMENU SCRIPTS -->
-    <script src="assets/js/jquery.metisMenu.js"></script>
+    <script src="../assets/js/jquery.metisMenu.js"></script>
      <!-- MORRIS CHART SCRIPTS -->
-     <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
-    <script src="assets/js/morris/morris.js"></script>
+     <script src="../assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="../assets/js/morris/morris.js"></script>
       <!-- CUSTOM SCRIPTS -->
-    <script src="assets/js/custom.js"></script>
+    <script src="../assets/js/custom.js"></script>
 
